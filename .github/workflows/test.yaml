@@ -26,6 +26,7 @@ jobs:
       - name: Run a one-line script
         run: | 
           yarn add @vercel/ncc
+          yarn add @actions/github @actions/core
           yarn build
       - uses: actions/upload-artifact@v3
         with:
