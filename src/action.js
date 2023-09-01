@@ -7,6 +7,9 @@ const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
 
 const octokit = github.getOctokit(GITHUB_TOKEN);
 
+var owner = "clagosu";
+var repo = "action-test";
+  
 const workflows = await octokit.request(
   "GET /repos/:owner/:repo/actions/workflows", 
   { owner, repo }
