@@ -1,6 +1,6 @@
-name:
-description
-author
+name: 'Event path'
+description: 'Test'
+author: 'Test'
 
 inputs:
   GITHUB_TOKEN:
