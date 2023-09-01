@@ -2,7 +2,7 @@
   "name": "my-awesome-package",
   "version": "1.0.0",
   "author": "Your Name <email@example.com>",
-  "main": "index.js"
+  "main": "index.js",
 
   "scripts": {
     "build": "ncc build src/action.js -o dist"
